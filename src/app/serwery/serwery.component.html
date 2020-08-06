@@ -14,7 +14,12 @@
         (click)="onCreateSerwer()">
   Przycisk
 </button>
-<p>{{serwerCreationStatus}}</p>
+<!--<p>{{serwerCreationStatus}}</p> -->
+<p *ngIf="serwerCreated; else noSerwer">Serwer was created, serwer name is {{serwerName}} </p>
+<ng-template #noSerwer>
+  <p>no serwer was created</p> 
+ </ng-template>
+
 
 <app-serwer></app-serwer>
 <app-serwer></app-serwer>
@@ -22,7 +27,7 @@
        class="form-control"
        [(ngModel)]="userName" />
 <!-- <p>{{userName}}</p>-->
-<button class="btn btn-primary" [disabled]=  "userName=== '' " (click)="onCreateUserName()">
+<button class="btn btn-primary" [disabled]="userName=== '' " (click)="onCreateUserName()">
   Imie
 
 </button>
