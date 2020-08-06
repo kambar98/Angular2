@@ -3,8 +3,11 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\serwer"
+    "\\src\\app\\serwer",
+    "\\src\\app\\serwery",
+    "\\src\\app\\success",
+    "\\src\\app\\warning"
   ],
-  "SelectedNode": "\\src\\app\\serwer\\serwer.component.ts",
+  "SelectedNode": "\\src\\app\\serwery\\serwery.component.ts",
   "PreviewInSolutionExplorer": false
 }
