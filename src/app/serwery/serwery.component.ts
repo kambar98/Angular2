@@ -3,7 +3,8 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-serwery',
   templateUrl: './serwery.component.html',
-  styleUrls: ['./serwery.component.css']
+  styleUrls: ['./serwery.component.css'] 
+
 })
 export class SerweryComponent implements OnInit {
   allowNewSerwer = false;
