@@ -19,8 +19,7 @@
 
 
 
-<app-serwer></app-serwer>
-<app-serwer></app-serwer>
+<app-serwer *ngFor="let server of servers"> </app-serwer>
 <input type="text"
        class="form-control"
        [(ngModel)]="userName" />
