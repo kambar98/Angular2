@@ -3,11 +3,12 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\serwer",
-    "\\src\\app\\serwery",
-    "\\src\\app\\success",
-    "\\src\\app\\warning"
+    "\\src\\app\\header",
+    "\\src\\app\\recipes",
+    "\\src\\app\\recipes\\recipe-list",
+    "\\src\\app\\shopping-list",
+    "\\src\\app\\shopping-list\\shopping-edit"
   ],
-  "SelectedNode": "\\src\\app\\serwery\\serwery.component.ts",
+  "SelectedNode": "\\src\\app\\recipes\\recipe.model.ts",
   "PreviewInSolutionExplorer": false
 }
