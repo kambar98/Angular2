@@ -11,6 +11,6 @@
     "\\src\\app\\shopping-list",
     "\\src\\app\\shopping-list\\shopping-edit"
   ],
-  "SelectedNode": "\\src\\app\\header\\header.component.html",
+  "SelectedNode": "\\src\\app\\recipes\\recipes.component.ts",
   "PreviewInSolutionExplorer": false
 }
