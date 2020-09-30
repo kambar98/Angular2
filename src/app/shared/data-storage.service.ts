@@ -17,7 +17,12 @@ export class DataStorageService {
         .subscribe(response => {
           console.log(response);
         })
-    }
+  }
+
+  fetchRecipes() {
+    this.http.get<Recipe[]>('https://website-project-93b36.firebaseio.com/recipes.json')
+      .subscribe(recipes => { this.recipesService.setRecipes(recipes); })
+  }
   }
 
 
